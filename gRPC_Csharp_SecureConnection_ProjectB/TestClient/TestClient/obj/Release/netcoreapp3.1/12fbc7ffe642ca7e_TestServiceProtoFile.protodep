@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1\Protos/TestServiceProtoFile.cs \
+obj\Release\netcoreapp3.1\Protos/TestServiceProtoFileGrpc.cs: Protos/TestServiceProtoFile.proto

@@ -1,0 +1,3 @@
+source /mnt/c/Users/MSikander/AI/LS_VirtualEnvs/gRPC_Python_VirtualEnv/bin/activate
+
+cd /mnt/c/Users/MSikander/AI/LS_Projects/gRPC_Python_SecureConnection/

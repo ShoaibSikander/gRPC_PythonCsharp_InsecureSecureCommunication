@@ -1,0 +1,1 @@
+C:\Users\MSikander\.nuget\packages\grpc.tools\2.36.4\tools\windows_x64\protoc.exe --proto_path=. --grpc_out=. --csharp_out=. --csharp_opt=file_extension=.g.cs TestServiceProtoFile.proto --plugin=protoc-gen-grpc=C:\Users\MSikander\.nuget\packages\grpc.tools\2.36.4\tools\windows_x64\grpc_csharp_plugin.exe

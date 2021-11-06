@@ -1,0 +1,210 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestClient/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.15.6",
+          "Grpc.Net.Client": "2.38.0",
+          "Grpc.Tools": "2.36.4",
+          "Microsoft.AspNetCore.Authentication.Certificate": "5.0.11"
+        },
+        "runtime": {
+          "TestClient.dll": {}
+        }
+      },
+      "Google.Protobuf/3.15.6": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.15.6.0",
+            "fileVersion": "3.15.6.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.37.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.37.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.38.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.38.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.38.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.38.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.37.0"
+        },
+        "runtime": {
+          "lib/net5.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.38.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.36.4": {},
+      "Microsoft.AspNetCore.Authentication.Certificate/5.0.11": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Authentication.Certificate.dll": {
+            "assemblyVersion": "5.0.11.0",
+            "fileVersion": "5.0.1121.47605"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {},
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {},
+      "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {}
+    }
+  },
+  "libraries": {
+    "TestClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.15.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GDqEK8/gwUJWJGIwJqXwrwEAjBv1opPmDMBz3zjNvzzDFDO8C7hc3DgUTgE5v5FeVWtZYF7ykSBbKRo0hdu02A==",
+      "path": "google.protobuf/3.15.6",
+      "hashPath": "google.protobuf.3.15.6.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.37.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ubqW2nTpiHyDudYGVXM+Vjh6WbgsI1fVQxsDK14/GnyPgiNMuNl8+GQcAYp5QPhAk5H4fjHJPI+KvbpVk8z6iQ==",
+      "path": "grpc.core.api/2.37.0",
+      "hashPath": "grpc.core.api.2.37.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.38.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5SvCXCIYe2pHv0xn55M0Fy5GmOJEFNYAZT2mih4cRtv+Tzkyj70CPJ80Kgqc/RI5KLkspDIeTl36equxRBXOKg==",
+      "path": "grpc.net.client/2.38.0",
+      "hashPath": "grpc.net.client.2.38.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.38.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZFmGJPYK1hMRDRtCdFcG/xrX5KZ2vDNBHS+Mu1Eijp9ekdfKJE/yVGxnIRKgISNFCWJ7zTSL8tpH/galMETtNA==",
+      "path": "grpc.net.common/2.38.0",
+      "hashPath": "grpc.net.common.2.38.0.nupkg.sha512"
+    },
+    "Grpc.Tools/2.36.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vEJMB7+nxY4/Xja5/dbgnTqaJ8+WlEHnylkehV3M5dbvUzpJeiPoAk0ghd6YVt7etAc7Cu75ZpgOe3rsjOSPww==",
+      "path": "grpc.tools/2.36.4",
+      "hashPath": "grpc.tools.2.36.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Certificate/5.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tF3zWLP/e7HI30IDYRPnLLwNi16a9OA2R74dhSH9Zd4VoXzDWy79XD18foi3DhkxnUeTmllpdSoN3y11Bmracw==",
+      "path": "microsoft.aspnetcore.authentication.certificate/5.0.11",
+      "hashPath": "microsoft.aspnetcore.authentication.certificate.5.0.11.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
+      "path": "microsoft.extensions.caching.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/1qPCleFOkJe0O+xmFqCNLFYQZTJz965sVw8CUB/BQgsApBwzAUsL2BUkDvQW+geRUVTXUS9zLa0pBjC2VJ1gA==",
+      "path": "microsoft.extensions.caching.memory/5.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+Client is "Console Application .NET Core" whereas Server is "gRPC Service" type project
+
+Step-1
+Create projects.
+
+Step-2
+Server Settings
+No need to install any NuGet package.
+Define port in "launchsettings.json"
+Edit the protofile to include "csharp_namespace".
+Select the protofile in Solution Explorer. In "Advanced", select the "Build Action" as "Protobuf compiler". "gRPC Stub Classes" as "Server only".
+Build the project (ofcourse it will have errors, ignore them for now).
+Create a class in "Services" folder in Solution Explorer and edit code inside it.
+Perform changes in "Startup.cs"
+
+Step-3
+Client Settings
+Install NuGet packages  -->	Google.Protobuf , Grpc.Tools , Grpc.Net.Client
+Create a folder "Protos". Manually copy and paste here the proto file.
+Edit the protofile to include "csharp_namespace".
+Select the protofile in Solution Explorer. In "Advanced", select the "Build Action" as "Protobuf compiler". "gRPC Stub Classes" as Client only".
+Build the project (it could have errors, ignore them for now).
+Write the code in "Program.cs".
+
+

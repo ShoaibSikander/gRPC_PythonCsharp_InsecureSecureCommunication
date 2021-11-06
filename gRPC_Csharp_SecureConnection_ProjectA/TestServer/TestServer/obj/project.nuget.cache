@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "UpqEkqgrMeXcJLQFMeONOBgu3MQUTqDe3Unkn+XEjE2HgjKZnzpdvg5q4b+aGLmbMXnqupXwx5fcSmRlT7d0Wg==",
+  "success": true,
+  "projectFilePath": "L:\\Csharp\\gRPC_Csharp_SecureConnection_ProjectA\\TestServer\\TestServer\\TestServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSikander\\.nuget\\packages\\google.protobuf\\3.15.6\\google.protobuf.3.15.6.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\grpc\\2.36.4\\grpc.2.36.4.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\grpc.core\\2.36.4\\grpc.core.2.36.4.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\grpc.core.api\\2.36.4\\grpc.core.api.2.36.4.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\grpc.tools\\2.36.4\\grpc.tools.2.36.4.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\MSikander\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

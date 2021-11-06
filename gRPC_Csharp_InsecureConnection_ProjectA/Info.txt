@@ -1,0 +1,16 @@
+Client and Server both are "Console Application .NET Core" type projects
+
+Step-1
+Create projects.
+
+Step-2
+Install NuGet packages
+Server	-->	Google.Protobuf , Grpc , Grpc.Tools , Grpc.Core
+Client  -->	Google.Protobuf , Grpc , Grpc.Tools , Grpc.Core
+
+Step-3
+Define a class in Server ("TestCode.cs" in this project)
+
+Step-4
+Write Server & Client codes
+
